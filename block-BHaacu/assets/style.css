@@ -1,0 +1,330 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.width-half {
+  width: 20%;
+}
+
+.btn, .btn-tertiary, .btn-secondary, .btn-primary {
+  font-size: 1.2rem;
+  border-radius: 1.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+}
+
+.btn-primary {
+  background-color: #DC3C45;
+  color: white;
+}
+
+.btn-secondary {
+  color: #DC3C45;
+  border: 1px solid #DC3C45;
+  margin-top: 1rem;
+}
+
+.btn-tertiary {
+  color: white;
+  border: 0.5px solid white;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+}
+
+.padding {
+  padding: 2rem 0;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.heading-medium {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.small-heading, .footer-ul .footer-small-heading, .best-consultancy-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.center {
+  text-align: center;
+}
+
+.text-margin {
+  margin: 1rem 0;
+}
+
+.body-text-medium, .best-consultancy-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #7D858C;
+}
+
+.body-text-small, .copyright-info, .footer-ul li a {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #7D858C;
+}
+
+.about-article {
+  color: white;
+}
+
+.about-article h4 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.top-nav {
+  background-color: #DC3C45;
+  padding: 0.5rem 0;
+}
+
+.top-nav ul li {
+  width: 2rem;
+}
+
+.top-ul li a {
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.top-ul {
+  width: 10rem;
+}
+
+.top-ul li {
+  margin: 0 0.2rem;
+}
+
+.top-nav-logo {
+  background-color: #F2F2F2;
+}
+
+.brand-logo {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #DC3C45;
+}
+
+.brand-logo small {
+  color: black;
+  margin: 2rem 0;
+}
+
+.logo-ul li a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: black;
+}
+
+.nav-drawer {
+  padding: 1rem 0.5rem;
+}
+
+.nav-drawer:hover {
+  background-color: #EB5F61;
+  color: white;
+}
+
+.width-drawer {
+  width: 0.9rem;
+}
+
+.dwawer-active {
+  background-color: #EB5F61;
+  padding: 1rem 0.5rem;
+}
+
+.dwawer-active:hover {
+  background-color: #F2F2F2;
+}
+
+.hero-title h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: black;
+}
+
+.hero-title {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./media/banner-1.jpg);
+  background-size: cover;
+}
+
+.hero-title-text {
+  line-height: 1.2;
+  position: absolute;
+  top: 25rem;
+  left: 8rem;
+}
+
+.hero-title-text h5 {
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.article {
+  width: 30%;
+  border: 1px solid #7D858C;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+}
+
+article p {
+  margin: 1rem 0;
+}
+
+.article img {
+  margin-bottom: 0.8rem;
+}
+
+.all-solutions {
+  background-color: #F2F2F2;
+}
+
+.top-consulting, .top-consulting-img {
+  width: 48%;
+}
+
+.best-consultancy {
+  background-color: #DC3C45;
+}
+
+.best-consultancy-heading {
+  color: white;
+}
+
+.best-consultancy-text {
+  color: white;
+}
+
+.industry-leader {
+  width: 48%;
+}
+
+.clients img {
+  width: 14%;
+  margin-left: 1rem;
+}
+
+.width-adjust {
+  width: 2rem;
+}
+
+.footer-section {
+  background-color: #343A40;
+  color: #7D858C;
+}
+
+.footer-ul .footer-small-heading {
+  color: #B7B7B8;
+  margin-bottom: 0.8rem;
+}
+
+.footer-social-media li {
+  margin-left: 1rem;
+}
+
+.copyright-info h5 span {
+  color: #B7B7B8;
+}/*# sourceMappingURL=style.css.map */
