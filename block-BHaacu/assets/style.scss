@@ -1,0 +1,179 @@
+@import "_reset";
+@import "_vars";
+@import "_general";
+@import "_about";
+
+
+// Top Nav
+.top-nav {
+    background-color: $primary;
+    padding: 0.5rem 0;
+}
+.top-nav ul li {
+    width: 2rem;
+}
+
+.top-ul li a {
+    margin-right: 1rem;
+    font-size: 0.8rem;
+    color: $white-color;
+}
+.top-ul {
+    width: 10rem;
+}
+
+.top-ul li {
+    margin: 0 0.2rem;
+}
+
+.top-nav-logo {
+    background-color: $tertiary;
+}
+
+.brand-logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: $primary;
+}
+.brand-logo small {
+    color: $black-color;
+    margin: 2rem 0;
+}
+
+.logo-ul li {
+    
+}
+.logo-ul li a {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: $black-color;
+}
+.nav-drawer {
+    padding: 1rem 0.5rem;
+}
+.nav-drawer:hover {
+    background-color: #EB5F61;
+    color: $white-color;
+}
+.width-drawer {
+    width: 0.9rem;
+}
+.dwawer-active {
+    background-color: #EB5F61;
+    padding: 1rem 0.5rem;
+}
+.dwawer-active:hover {
+    background-color: $tertiary;
+}
+// Hero-Section
+.hero-title h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: $black-color;
+}
+.hero-title {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./media/banner-1.jpg);
+    background-size: cover;
+}
+.hero-title-text {
+    line-height: 1.2;
+    position: absolute;
+    top: 25rem;
+    left: 8rem;
+}
+
+.hero-title-text h5 {
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+// Services
+
+.article {
+    width: 30%;
+    border: 1px solid $secondary;
+    border-radius: 0.5rem;
+    padding: 2rem 1rem;
+}
+
+article p {
+    margin: 1rem 0;
+}
+.article img {
+    margin-bottom: 0.8rem;
+}
+
+
+// All-Solution
+.all-solutions {
+    background-color: $tertiary;
+}
+
+.top-consulting,.top-consulting-img {
+    width: 48%;
+}
+
+// Best-consultancy
+
+.best-consultancy {
+    background-color: $primary;
+}
+
+.best-consultancy-heading {
+    @extend .small-heading;
+    color: $white-color;
+}
+
+.best-consultancy-text {
+    @extend .body-text-medium;
+    color: $white-color;
+}
+// Industry-Leader
+
+.industry-leader {
+    width: 48%;
+} 
+
+// Clients
+.clients img{
+    width: 14%;
+    margin-left: 1rem;
+}
+
+
+.width-adjust {
+    width: 2rem;
+}
+
+
+// Footer-section
+.footer-section {
+    background-color: $footer-color;
+    color: $secondary;
+}
+
+.footer-ul li a{
+    @extend .body-text-small;
+}
+
+.footer-ul .footer-small-heading {
+    @extend .small-heading;
+    color: #B7B7B8;
+    margin-bottom: 0.8rem;
+}
+
+.footer-social-media li {
+    margin-left: 1rem;
+}
+
+.copyright-info {
+    @extend .body-text-small;
+}
+
+.copyright-info h5 span {
+    color: #B7B7B8;
+}
+
